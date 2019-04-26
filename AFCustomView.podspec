@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '9.0'
 s.name = "AFCustomView"
 s.summary = "AFCustomView lets a user select an ice cream flavor."
 s.requires_arc = true
