@@ -20,9 +20,9 @@ public class AFCustomView: UIView {
     var shadowView: UIView!
     var contentView: UIView!
     
-    public var bgColor: UIColor? {
+    public var bgcolor: UIColor? {
         didSet {
-            contentView.backgroundColor = bgColor
+            contentView.backgroundColor = bgcolor
         }
     }
     
@@ -49,7 +49,7 @@ public class AFCustomView: UIView {
         shadowView.backgroundColor = .clear
         shadowView.layer.shadowColor = sColor.cgColor
         shadowView.layer.shadowOffset = sOffset
-        shadowView.layer.opacity = sOpacity
+        shadowView.layer.shadowOpacity = sOpacity
         shadowView.layer.cornerRadius = radius
         addSubview(shadowView)
         
@@ -74,7 +74,7 @@ public class AFCustomView: UIView {
         contentView.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
         contentView.topAnchor.constraint(equalTo: topAnchor).isActive = true
         contentView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
-
+        
     }
     
     func addChildView(childView: UIView) {
@@ -83,3 +83,5 @@ public class AFCustomView: UIView {
     
     
 }
+
+

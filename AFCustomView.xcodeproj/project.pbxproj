@@ -52,8 +52,8 @@
 			children = (
 				88F7B2A82272B89E00BFEE2C /* AFCustomView.h */,
 				88F7B2F02273036D00BFEE2C /* AFCustomViewDesignable.swift */,
-				88F7B2A92272B89E00BFEE2C /* Info.plist */,
 				88F7B2B02272B92400BFEE2C /* AFCustomView.swift */,
+				88F7B2A92272B89E00BFEE2C /* Info.plist */,
 			);
 			path = AFCustomView;
 			sourceTree = "<group>";
