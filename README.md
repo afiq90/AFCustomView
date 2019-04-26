@@ -15,7 +15,7 @@ Swift 4.2 & 5.0. Ready for use on iOS 10+
 
 You can use CocoaPods to install AFCustomView by adding it to your Podfile:
 
-```pod 'AFCustomView', :git => 'https://github.com/afiq90/AFCustomView.git', :tag => '0.5.0'```
+```pod 'AFCustomView', :git => 'https://github.com/afiq90/AFCustomView.git', :tag => '0.7.0'```
 
 # How to use
 
