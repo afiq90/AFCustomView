@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AFCustomView: UIView {
+public class AFCustomView: UIView {
     
     // PROPERTIES
     var radius = CGFloat()
@@ -20,7 +20,7 @@ class AFCustomView: UIView {
     var shadowView: UIView!
     var contentView: UIView!
     
-    var bgColor: UIColor? {
+    public var bgColor: UIColor? {
         didSet {
             contentView.backgroundColor = bgColor
         }
