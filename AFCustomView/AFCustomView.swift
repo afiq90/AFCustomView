@@ -26,7 +26,7 @@ class AFCustomView: UIView {
         }
     }
     
-    init(cornerRadius: CGFloat, shadowRadius: CGFloat, shadowOffset: CGSize, shadowColor: UIColor, shadowOpacity: Float) {
+    public init(cornerRadius: CGFloat, shadowRadius: CGFloat, shadowOffset: CGSize, shadowColor: UIColor, shadowOpacity: Float) {
         super.init(frame: CGRect.zero)
         
         self.radius = cornerRadius
@@ -43,7 +43,7 @@ class AFCustomView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func configureShadowView() {
+    fileprivate func configureShadowView() {
         // uiview settings
         shadowView = UIView()
         shadowView.backgroundColor = .clear
@@ -61,7 +61,7 @@ class AFCustomView: UIView {
         shadowView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
     }
     
-    func configureContentView() {
+    fileprivate func configureContentView() {
         // uiview settings
         contentView = UIView()
         contentView.layer.cornerRadius = radius
