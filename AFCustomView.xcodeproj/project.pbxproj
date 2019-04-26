@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		88F7B2AA2272B89E00BFEE2C /* AFCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F7B2A82272B89E00BFEE2C /* AFCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88F7B2B12272B92400BFEE2C /* AFCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7B2B02272B92400BFEE2C /* AFCustomView.swift */; };
+		88F7B2F12273036D00BFEE2C /* AFCustomViewDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7B2F02273036D00BFEE2C /* AFCustomViewDesignable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		88F7B2A82272B89E00BFEE2C /* AFCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCustomView.h; sourceTree = "<group>"; };
 		88F7B2A92272B89E00BFEE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88F7B2B02272B92400BFEE2C /* AFCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFCustomView.swift; sourceTree = "<group>"; };
+		88F7B2F02273036D00BFEE2C /* AFCustomViewDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFCustomViewDesignable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				88F7B2A82272B89E00BFEE2C /* AFCustomView.h */,
+				88F7B2F02273036D00BFEE2C /* AFCustomViewDesignable.swift */,
 				88F7B2A92272B89E00BFEE2C /* Info.plist */,
 				88F7B2B02272B92400BFEE2C /* AFCustomView.swift */,
 			);
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F7B2F12273036D00BFEE2C /* AFCustomViewDesignable.swift in Sources */,
 				88F7B2B12272B92400BFEE2C /* AFCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
